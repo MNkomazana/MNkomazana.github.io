@@ -1,0 +1,240 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+:root{
+    --white:#fff;
+    --litegray-color:rgb(212, 207, 207);
+    --Orange:#f5564e;
+    --gray:#808080;
+    --black:#000;
+}
+/* Home*/
+header{
+    scroll-margin-top: 27px;
+}
+#home{
+    background-image:url('imgs/image.jpg');
+    background-size:cover;
+    background-position:center;
+    padding:4px;
+}
+#showcase{
+  height:100vh;
+  width:100%;
+  color:var(--white);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  text-align:center;
+  line-height:1.6;
+}
+
+.avatar{
+    margin-top:10px;
+}
+.avatar img{
+    border-radius:50%;
+}
+.container span{
+    font-size:20px;
+    font-family: "Xanh Mono",Arial, Helvetica, sans-serif;
+    color:var(--black);
+    font-weight:bold;
+}
+/*Navigation bar*/
+.nav{
+    background-color:#1a2c5b;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    padding-bottom:4px;
+}
+.nav .nav-1{
+    text-align:right;
+}
+.nav-1 div{
+    margin-top:6px;
+}
+#home .nav-1 li{
+    display:inline;
+    margin:15px 40px;
+    list-style:none;
+}
+
+#home .nav-1 a{
+    font-weight:bold;
+    text-decoration:none;
+    color: var(--white);
+    font-family:"Xanh Mono", Arial,Helvetica, sans-serif;
+}
+#home .nav-1 a:hover{
+    text-decoration:none;
+    color:var(--black);
+    font-family:"Xanh Mono", Arial,Helvetica, sans-serif;
+}
+/* projects */
+#projects{
+    margin-top: 20px;
+    min-height:100vh;
+    overflow:hidden;
+}
+#proj{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.images{
+    text-align:center;
+    padding:10px;
+    width:300px;
+}
+.images img{
+    width:80%;
+}
+.images img:hover{
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.6);
+    transition:transform 1s ease-in-out;
+    transform:scale(1.05);
+    border-radius:20px;
+}
+.proj-h h2{
+    text-align:center;
+    font-family:"Xanh Mono",Arial, Helvetica, sans-serif;
+    font-size:22px;
+    margin:0 auto;
+}
+
+
+/* About */
+#about{
+    background-color:var(--litegray-color);
+    height:auto;
+    margin-top:20px;
+}
+.container-2{
+    padding:8px;
+}
+.attributes h3{
+    text-align:center;
+    font-family:"Xanh Mono",Arial, Helvetica, sans-serif;
+    font-size:22px;
+    padding-top:4px;
+    margin-bottom:20px;
+}
+.personal{
+    display:flex;
+    flex-direction:column;
+    height:auto;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    margin:0px auto;
+    width:80%;
+    margin:auto;
+    background-color:#e8e2db;
+    border-radius:10px;
+    padding:4px;
+}
+.image,.description{
+    margin:0 auto;
+}
+.image{
+    margin-left:40px;
+    margin-right:50px;
+    text-align:center;
+}
+.image img{
+    width:250px;
+    height:250px;
+    padding:10px;
+    border-radius:50%;
+}
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin-top:10px;
+    padding:4px;
+    overflow:hidden;
+}
+.card-1, .card-2, .card-3{
+    width:25%;
+    margin-top:0px;
+    margin-right:10px;
+    margin-bottom:0px;
+    text-align:center;
+    padding:20px;
+}
+.card-1 img, .card-2 img, .card-3 img{
+    height:80px;
+    width:80px;
+    border-radius:20px;
+    padding:10px;
+}
+
+.description li{
+    list-style:none;
+    line-height:1.6;
+}
+ 
+.skills{
+    height:auto;
+}
+.skills div{
+    display:flex;
+    flex-direction:column;
+}
+.status-bar{
+    height:10px;
+    width:80px;
+    margin:auto;
+}
+.status-bar div{
+    background-color:#1a2c5b;
+}
+.status-bar div .html-card{
+    background-color:#1fa1da;
+    width:65%;
+    height:10px;
+}
+.status-bar div .css-card{
+    background-color:#1fa1da;
+    width:50%;
+    height:10px;
+}
+.status-bar div .js-card{
+    background-color:#1fa1da;
+    width:10%;
+    height:10px;
+}
+
+/*Contact Details*/
+.contact{
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-end;
+    padding:10px;
+    /*background-color:#1a3263;*/
+    background-color:#e8e2db;
+    color:#000;
+    font-family:"Xanh Mono",Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    width:100%;
+    padding-bottom:50px;
+}
+.social-links i{
+    margin-right:10px;
+    color:#000;
+}
+
+
