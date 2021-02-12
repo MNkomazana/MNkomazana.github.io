@@ -190,7 +190,7 @@ header{
 .skills{
     height:auto;
 }
-.skills div{
+.skills .card-container{
     display:flex;
     flex-direction:column;
     border:1px solid rgb(85, 83, 83);
