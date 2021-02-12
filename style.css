@@ -236,5 +236,8 @@ header{
     margin-right:10px;
     color:#000;
 }
-
+.phone span{
+    color:#000;
+    text-decoration:none;
+}
 
