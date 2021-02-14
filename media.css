@@ -1,9 +1,7 @@
 /* Mobile devices*/
 @media (max-width:500px){
     /* Home */
-    #home{
-        padding:4px;
-    }
+    
     .nav{
         display:flex;
         flex-direction:row;
