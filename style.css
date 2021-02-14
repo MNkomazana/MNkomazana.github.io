@@ -125,6 +125,10 @@ header{
     grid-column:2/span 1;
     grid-row:3/span 1;
 }
+#proj .images9{
+    grid-column:3/span 1;
+    grid-row:3/span 1;
+}
 .images{
     text-align:center;
     padding:10px;
