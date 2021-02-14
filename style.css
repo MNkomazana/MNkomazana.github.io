@@ -79,14 +79,17 @@ header{
 /* projects */
 #projects{
     margin-top: 20px;
-    min-height:100vh;
-    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    /*overflow:hidden;*/
 }
 #proj{
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content:center;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:auto auto auto;
+    grid-gap:10px;
+    margin:auto;
 }
 
 .images{
@@ -95,7 +98,7 @@ header{
     width:300px;
 }
 .images img{
-    width:80%;
+    width:100%;
 }
 .images img:hover{
     box-shadow: 3px 3px 10px rgba(0,0,0,0.6);
@@ -103,13 +106,16 @@ header{
     transform:scale(1.05);
     border-radius:20px;
 }
-.proj-h h2{
-    text-align:center;
+.proj-h{
+    /* text-align:center; */
     font-family:"Xanh Mono",Arial, Helvetica, sans-serif;
     font-size:22px;
-    margin:0 auto;
+    margin:10px auto;
+    padding:10px 0;
 }
-
+.proj-h h2{
+    font-size: 22px;
+}
 
 /* About */
 #about{
