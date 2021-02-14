@@ -18,12 +18,6 @@ body{
 header{
     scroll-margin-top: 27px;
 }
-#home{
-    background-image:url('imgs/image.jpg');
-    background-size:cover;
-    background-position:center;
-    padding:4px;
-}
 #showcase{
   height:100vh;
   width:100%;
@@ -34,8 +28,10 @@ header{
   justify-content: center;
   text-align:center;
   line-height:1.6;
+  background-image:url('imgs/image.jpg');
+  background-size:cover;
+  background-position:center;
 }
-
 .avatar{
     margin-top:10px;
 }
