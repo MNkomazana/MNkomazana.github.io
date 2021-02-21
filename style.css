@@ -226,7 +226,10 @@ header{
     list-style:none;
     line-height:1.6;
 }
- 
+.description i{
+    color:#1a2c5b;
+    padding:12px;
+} 
 .skills{
     height:auto;
 }
