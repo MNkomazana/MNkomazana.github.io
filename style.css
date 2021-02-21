@@ -273,9 +273,9 @@ header{
     width:100%;
     padding-bottom:50px;
 }
-.social-links i, .phone i{
+.social-links i, .phone i, .home-address i{
     margin-right:10px;
-    color:#000;
+    color:#1a2c5b;
 }
 
 
