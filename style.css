@@ -273,7 +273,7 @@ header{
     width:100%;
     padding-bottom:50px;
 }
-.social-links i{
+.social-links i, .phone i{
     margin-right:10px;
     color:#000;
 }
