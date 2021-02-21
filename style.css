@@ -242,8 +242,12 @@ header{
     width:80px;
     margin:auto;
 }
+
+    
 .status-bar div{
     background-color:#000;
+    border-radius: 6px;
+    overflow:hidden;
 }
 .status-bar div .html-card{
     background-color:#1fa1da;
@@ -279,6 +283,10 @@ header{
 .social-links i, .phone i, .home-address i{
     margin-right:10px;
     color:#1a2c5b;
+}
+.phone a{
+    text-decoration: none;
+    color:#000;
 }
 
 
