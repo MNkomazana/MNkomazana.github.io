@@ -141,7 +141,7 @@ header{
 }
 .images img:hover{
     box-shadow: 3px 3px 10px rgba(0,0,0,0.6);
-    transition:1s ease-in-out;
+    transition:.5s ease-in-out;
     border-radius:20px;
 }
 .proj-h{
