@@ -128,11 +128,8 @@
     }
     .phone{
         order:2;
-        margin-bottom:4px;
-    }
-    .phone span{
-        display:flex;
-        flex-wrap:wrap;
+        margin-bottom:20px;
+        margin-top:20px;
     }
     
 }
