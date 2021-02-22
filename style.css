@@ -18,7 +18,7 @@ body{
 header{
     scroll-margin-top: 27px;
 }
-#showcase{
+.showcase_wrapper{
   height:100vh;
   width:100%;
   color:var(--white);
@@ -33,7 +33,7 @@ header{
   background-position:center;
 }
 .avatar{
-    margin-top:10px;
+    padding:10px;
 }
 .avatar img{
     border-radius:50%;
