@@ -15,11 +15,18 @@ body{
     --black:#000;
 }
 /* Home*/
-header{
-    scroll-margin-top: 27px;
+
+#showcase{
+    max-height:100vh;
+    display:flex;
+    justify-content:center;
 }
 .showcase_wrapper{
-  height:100vh;
+  position:absolute;
+  right:0;
+  left:0;
+  bottom:0;
+  height:100%;
   width:100%;
   color:var(--white);
   display:flex;
@@ -50,6 +57,30 @@ header{
     font-family: "Xanh Mono",Arial, Helvetica, sans-serif;
     color:var(--black);
     font-weight:bold;
+}
+#showcase .viewmore{
+    width:100%;
+    background-color:transparent;
+}
+#showcase .viewmore ul, 
+#showcase .viewmore a{
+    width:100%;
+    list-style: none;
+    text-decoration:none;
+    color:#000;
+    font-size:24px;
+}
+#showcase .viewmore i{
+    padding-left:5px;
+}
+
+#showcase .viewmore a:hover{
+    text-decoration:underline;
+    transition:.5s ease-in-out;
+    color:#fff;
+}
+#showcase .viewmore:focus{
+    outline:none;
 }
 /*Navigation bar*/
 .nav{
