@@ -299,23 +299,45 @@ body{
 .contact{
     display:flex;
     justify-content:space-around;
-    align-items:flex-end; 
     padding:10px;
     background-color:#e8e2db;
     color:#000;
     font-family:"Xanh Mono",Arial, Helvetica, sans-serif;
     font-weight:bold;
     width:100%;
-    padding-bottom:50px;
+    padding-bottom:20px;
 }
-
-.social-links i, .phone i, .home-address i{
+.social-links{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    align-items: flex-end;
+    order:3;
+}
+.socialMedia{
+    display:flex;
+    justify-content: space-around;
+}
+.social i{
+    margin:10px;
+}
+.socialMedia i, .phone i, .home-address i{
     margin-right:10px;
     color:#1a2c5b;
+}
+.phone{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    order:2;
+}
+.phone .mail, .phone .cellNumber{
+    padding:10px;
 }
 .phone a{
     text-decoration: none;
     color:#000;
 }
+
 
 
