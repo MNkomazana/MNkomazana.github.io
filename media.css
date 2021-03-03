@@ -187,4 +187,11 @@
         grid-column:1/span 1;
         grid-row:5/span 1;
     }
+    #about{
+        min-height:85vh;
+    }
+    .skills{
+        height:40vh;
+        align-items:center;
+    }
 }
