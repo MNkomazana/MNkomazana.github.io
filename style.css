@@ -307,12 +307,16 @@ body{
     width:100%;
     padding-bottom:20px;
 }
+.home-address{
+    padding:10px;
+}
 .social-links{
     display:flex;
     flex-direction:column;
     height:100%;
     align-items: flex-end;
     order:3;
+    padding:10px;
 }
 .socialMedia{
     display:flex;
@@ -330,6 +334,8 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     order:2;
+    padding:10px;
+    height:100%;
 }
 .phone .mail, .phone .cellNumber{
     padding:10px;
@@ -337,6 +343,9 @@ body{
 .phone a{
     text-decoration: none;
     color:#000;
+}
+.phone, .social-links{
+    border-left:2px solid #1a2c5b;
 }
 
 

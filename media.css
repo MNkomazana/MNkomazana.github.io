@@ -137,6 +137,12 @@
         order:2;
         margin-bottom:20px;
         margin-top:20px;
+        border-bottom:2px solid #1a2c5b;
+        border-top:2px solid #1a2c5b;
+        width:100%;
+    }
+    .phone, .social-links{
+        border-left:none;
     }
     
 }
