@@ -263,21 +263,22 @@ body{
     padding:12px;
 } 
 .skills{
-    height:auto;
+    min-height:30vh;
 }
 .skills div{
     display:flex;
     flex-direction:column;
 }
 .status-bar{
-    height:10px;
-    width:80px;
+    width:100%;
     margin:auto;
+    height:100%;
 }
-.status-bar div{
+.status-bar .span{
     background-color:#000;
     border-radius: 6px;
     overflow:hidden;
+    height:10px;
 }
 .status-bar div .html-card{
     background-color:#1fa1da;

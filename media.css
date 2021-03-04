@@ -191,7 +191,15 @@
         min-height:85vh;
     }
     .skills{
-        height:40vh;
+        min-height:40vh;
         align-items:center;
+    }
+    .skills .fab{
+        font-size:8em;
+    }
+    .status-bar{
+        min-width:100%;
+        overflow:hidden;
+        border:transparent;
     }
 }
