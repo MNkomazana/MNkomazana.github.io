@@ -59,8 +59,11 @@ body{
     font-weight:bold;
 }
 #showcase .viewmore{
-    width:100%;
+    width:80%;
     background-color:transparent;
+    border:1px solid #fff;
+    border-radius:20px;
+    margin:auto;
 }
 #showcase .viewmore ul, 
 #showcase .viewmore a{
