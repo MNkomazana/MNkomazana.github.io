@@ -18,7 +18,6 @@ body{
 
 #showcase{
     height:100vh;
-    max-height:100vh;
     display:flex;
     justify-content:center;
 }
