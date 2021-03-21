@@ -1,3 +1,10 @@
+:root{
+    --white:#fff;
+    --litegray-color:rgb(212, 207, 207);
+    --Orange:#f5564e;
+    --gray:#808080;
+    --black:#000;
+}
 *{
     margin:0;
     padding:0;
@@ -7,17 +14,12 @@ body{
     margin:0px;
     padding:0px;
 }
-:root{
-    --white:#fff;
-    --litegray-color:rgb(212, 207, 207);
-    --Orange:#f5564e;
-    --gray:#808080;
-    --black:#000;
-}
+
 /* Home*/
 
 #showcase{
     height:100vh;
+    min-height:100vh;
     display:flex;
     justify-content:center;
 }
