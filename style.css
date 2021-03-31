@@ -240,19 +240,12 @@ body{
     padding:10px;
     overflow:hidden;
 }
-.card-1, .card-2, .card-3{
-    width:25%;
+.card-1, .card-2, .card-3, .card-4{
+    width:100%;
     margin-top:0px;
     text-align:center;
     padding:20px;
 }
- .card-3 img{
-    height:48px;
-    width:48px;
-    padding:0px;
-    border-radius:6px;
-}
-
 .description li{
     list-style:none;
     line-height:1.6;
@@ -263,13 +256,20 @@ body{
 } 
 .skills{
     min-height:30vh;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap:40px;
 }
-.skills div{
+.skills .skill_wrapper{
     display:flex;
     flex-direction:column;
+    justify-content: space-evenly;
+    min-width:150px;
+    min-height:150px;
 }
 .status-bar{
-    width:100%;
+    width:50%;
     margin:auto;
     height:100%;
 }
@@ -278,21 +278,51 @@ body{
     border-radius: 6px;
     overflow:hidden;
     height:10px;
+    position:relative;
 }
-.status-bar div .html-card{
+ .html-card{
     background-color:#1fa1da;
     width:65%;
     height:10px;
+    position:absolute;
 }
-.status-bar div .css-card{
+ .css-card{
     background-color:#1fa1da;
-    width:50%;
+    width:79%;
     height:10px;
+    position:absolute;
+    overflow: hidden;
 }
-.status-bar div .js-card{
+.js-card{
     background-color:#1fa1da;
     width:10%;
     height:10px;
+    position:absolute;
+}
+
+.java-card{
+    background-color:#1fa1da;
+    width:50%;
+    height:10px;
+    position:absolute;
+    color:#000;
+}
+/* About, skills section grid items */
+.item1{
+    grid-column: 1/span 1;
+    grid-row:1/span 1;
+}
+.item2{
+    grid-column: 2/span 1;
+    grid-row:1/span 1;
+}
+.item3{
+    grid-column: 1/span 1;
+    grid-row:2/span 1;
+}
+.item4{
+    grid-column: 2/span 1;
+    grid-row:2/span 1;
 }
 
 /*Contact Details*/
