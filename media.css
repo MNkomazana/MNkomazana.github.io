@@ -1,7 +1,9 @@
 /* Mobile devices*/
 @media (max-width:600px){
     /* Home */
-    
+    body{
+        min-height:100vh;
+    }
     .nav{
         display:flex;
         flex-direction:row;
