@@ -18,13 +18,7 @@
       #showcase .container{
           font-size:16px;
       }
-      .showcase_wrapper{
-        position:absolute;
-        right:0;
-        left:0;
-        bottom:0;
-        /* top:115px; */
-      }
+      
       .container h1{
           font-size:20px;
       }
