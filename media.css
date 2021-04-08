@@ -29,6 +29,7 @@
       #projects{
           height:auto;
           margin-top:120px;
+          width:100%;
       }
       #proj{
           /* display:grid; */
