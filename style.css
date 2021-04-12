@@ -380,6 +380,7 @@ body{
     border-radius: 50%;
     text-decoration:none;
     background:linear-gradient(0deg, #fff,rgb(177, 171, 171));
+    outline:none;
 }
 .social i{
     border-radius: 50%;
