@@ -124,30 +124,29 @@
 
    /* Contact Details (More of a footer) */
     .contact{
-        display:flex;
+        flex-direction: column;
         flex-wrap:wrap;
         height:auto;
         padding-bottom:20px;
         height:auto;
     }
-    .contact div{
-        width:100%;
-        margin-bottom:2px;
-    }
+
     .home-address{
-          order:1;
+          order:1; 
           margin-bottom:4px;
     }
     .social-links{
-        text-align:center;
-        order:3;
-        margin-top:20px;
         margin-bottom:10px;
     }
+    .socialMedia{
+        width:100%;
+    }
+    .social{
+       display:flex;
+       align-items:center;
+       justify-content:center;
+    }
     .phone{
-        order:2;
-        margin-bottom:20px;
-        margin-top:20px;
         border-bottom:2px solid #1a2c5b;
         border-top:2px solid #1a2c5b;
         width:100%;

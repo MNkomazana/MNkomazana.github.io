@@ -200,7 +200,7 @@ body{
 /* About */
 #about{
     background-color:var(--litegray-color);
-    height:auto;
+    min-height:100vh;
     margin-top:20px;
     padding:10px;
 }
@@ -238,14 +238,7 @@ body{
     border-radius:50%;
     object-fit: fill;
 }
-.skills{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-evenly;
-    margin-top:20px;
-    padding:10px;
-    overflow:hidden;
-}
+
 .card-1, .card-2, .card-3, .card-4{
     width:100%;
     margin-top:0px;
@@ -261,7 +254,6 @@ body{
     padding:12px;
 } 
 .skills{
-    min-height:30vh;
     display:grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
@@ -330,6 +322,8 @@ body{
 
 /*Contact Details*/
 .contact{
+    width:100%;
+    min-height:150px;
     display:flex;
     justify-content:space-around;
     padding:10px;
@@ -337,35 +331,69 @@ body{
     color:#000;
     font-family:"Xanh Mono",Arial, Helvetica, sans-serif;
     font-weight:bold;
-    width:100%;
     padding-bottom:20px;
 }
+
 .home-address{
     padding:10px;
+    flex:1;
 }
 .social-links{
     display:flex;
     flex-direction:column;
     height:100%;
+    flex:1;
     align-items: flex-end;
     order:3;
     padding:10px;
 }
 .socialMedia{
+    width:100%;
+    height:80%;
     display:flex;
     justify-content: space-around;
+    align-items: center;
+    padding:10px;
+}
+.follow{
+    height:20%;
+    width:80%;
+    padding:10px;
+    margin:auto;
+}
+.social{
+    height:15%;
+    width:15%;
+    text-align:center;
+    border-radius: 50%;
+    background-color:#f2f5f5 ;
+    box-shadow: 0 0 10px 4px #bcc0c0;
 }
 .social i{
     margin:10px;
+    border-radius: 50%;
 }
 .socialMedia i, .phone i, .home-address i{
     margin-right:10px;
     color:#1a2c5b;
 }
+.socialMedia .fb i:hover{
+    color:rgb(50, 50, 184);
+}
+.socialMedia .twitter i:hover{
+    color:rgba(74, 135, 228, 0.863);
+}
+.socialMedia .github i:hover{
+    color:rgba(0,0,0, 0.8);
+}
+.socialMedia .insta i:hover{
+    color:rgba(206, 10, 43, 0.822);
+}
 .phone{
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
+    flex:1;
     order:2;
     padding:10px;
     height:100%;
