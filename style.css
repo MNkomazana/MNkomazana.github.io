@@ -382,7 +382,9 @@ body{
     background:linear-gradient(0deg, #fff,rgb(177, 171, 171));
     outline:none;
 }
-
+.social a:active{
+    background:transparent;
+}
 .social i{
     border-radius: 50%;
     color:#1a2c5b;
