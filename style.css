@@ -362,18 +362,30 @@ body{
     margin:auto;
 }
 .social{
-    height:15%;
-    width:15%;
-    text-align:center;
+    height:60px;
+    width:60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
     background-color:#f2f5f5 ;
     box-shadow: 0 0 10px 4px #bcc0c0;
 }
-.social i{
-    margin:10px;
+.social a{
+    height:75%;
+    width:75%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
+    text-decoration:none;
+    background:linear-gradient(0deg, #fff,rgb(177, 171, 171));
 }
-.socialMedia i, .phone i, .home-address i{
+.social i{
+    border-radius: 50%;
+    color:#1a2c5b;
+}
+.phone i, .home-address i{
     margin-right:10px;
     color:#1a2c5b;
 }
