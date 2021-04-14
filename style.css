@@ -95,6 +95,7 @@ body{
     top:0;
     left:0;
     padding-bottom:4px;
+    box-shadow: 0 0 4px 4px rgba(119, 117, 117, 0.8);
 }
 .nav .nav-1{
     text-align:right;
